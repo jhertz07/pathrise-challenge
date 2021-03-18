@@ -68,7 +68,7 @@ function Wishlist() {
                     }
                 </div>
             </div>
-            <div onClick={() => setModalActive("hidden")} className={"w-screen h-screen bg-gray-800 bg-opacity-75 " + 
+            <div onClick={() => setModalActive("hidden")} className={"w-screen h-screen bg-gray-800 bg-opacity-75 z-10 " + 
                 modalActive}>
                     <div onClick={(e) => e.stopPropagation()} className="absolute top-20 left-0 right-0 ml-auto mr-auto text-center w-72 h-72 bg-white rounded-md shadow p-2">
                         <div className="font-sans text-2xl font-semibold py-4">
