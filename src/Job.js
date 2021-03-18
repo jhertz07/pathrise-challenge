@@ -30,7 +30,7 @@ function Job(props) {
                         </div>
                         <button onClick={props.deleteJob}
                         className="mt-6 w-4/5 h-10 bg-purple-600 rounded-lg text-white font-medium">
-                            <span>Continue</span>
+                            <span>Delete</span>
                         </button>
                         <button onClick={() => setDeleteModal("hidden")}
                         className="mt-6 w-4/5 h-10 bg-gray-600 rounded-lg text-white font-medium">
